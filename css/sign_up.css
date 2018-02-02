@@ -1,0 +1,25 @@
+/*CSS DOCUMENT*/
+body{
+	background-color: #036;
+	
+}
+
+legend{
+	color:#F93;
+}
+
+form{
+	text-align: center;
+}
+.reg{
+	margin: 0px auto;
+	display: block;
+}
+.reg{
+	width: 500px;
+	height: 500px;
+	border:1px solid #036;
+	text-align: center;
+	color: #fff;
+	/*background-color: white;*/
+}

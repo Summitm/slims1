@@ -1,0 +1,40 @@
+/*CSS DOCUMENT*/
+
+body{
+	background-color:#036;
+
+}
+/*#brand-name{
+	margin: 0px auto;
+	display: block;
+}*/
+/*
+ *style the input fields
+ */
+ .login{
+ 	margin: 0px auto;
+ 	display: block;
+ }
+ .login{
+ 	width: 300px;
+ 	height: 300px;
+ 	margin-top: 200px;
+ 	text-align: center;
+ 	color: #fff;
+ }
+
+ input[type="text"], input[type="password"]{
+ 	border: outset;
+ 	border-radius: 10px;
+ 	background-image: url();
+ }
+ button{
+ 	color: black;
+ }
+form .error{
+	color: #ff0000;
+}
+ /*form inputs css validation*/
+ .psd1{
+ 	background-color: green;
+ }

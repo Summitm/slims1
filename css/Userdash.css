@@ -1,0 +1,131 @@
+/*CSS DOC*/
+body{
+	background-image: url('../Imgs/2.jpeg');
+	position: relative;
+	background-color:;
+	width: 1300px;
+	height: 640px;
+	margin: 0px auto;
+	display: block;
+	font-family: Arial, sans-serif;
+	font-weight: 10px black;
+	color:#ffffff;
+}
+
+/*
+ *===========================================================
+ *formatting the header section of the page
+ *===========================================================
+ */
+.navigate{
+	width: 100%;
+	height: 40px;
+	background-color: #036;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-bottom-left-radius: 0px;
+	-webkit-border-bottom-left-radius: 0px;
+}
+
+.user-image{
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-ms-border-radius:5px;
+	background-color: #fff;
+	background-image: url('../Imgs/3.ico');
+	text-align:;
+}
+
+.boxer{
+	width: 40px;
+	height: 40px;
+	border-radius: 20px;
+	/*z-index: 900;*/
+	background-color: #ff9;
+	opacity: .4;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.mybox{
+	margin-top: 20px;
+	background-color: #ff9;
+	z-index: 900px;
+	display: block;
+	width: 100px;
+	height: 100px;
+}
+
+/*
+ *=========================================================
+ *aside bar with nav tab BA55D3
+ *=========================================================
+ */
+.nav-pills > li.active > a:focus, 
+.nav-pills > li.active > a:active{
+	background-color: #F93;
+	color: #000;
+}
+.nav-pills > li.active > a:hover{
+	background-color: #F81;
+}
+
+.col-ahover{
+	width: 150px;
+	height: 550px;
+	display:block;
+	background-color: #036;
+	margin-top: -10px;
+	position:absolute;
+	/*left: 0;
+	top: 0;*/
+	z-index: 900;
+	border-radius: 5px;
+	border-top-left-radius: 0px;
+	-webkit-border-top-left-radius: 0px;
+}
+.col-ahover ul li a{
+	color:#ffffff;
+	text-align: center;
+	text-decoration: none;
+}
+.col-ahover ul li{
+	margin-top: 5px;
+}
+
+
+/*
+ *============================================================
+ formatting the container where the nav tab content is loaded
+ *============================================================
+ */
+.col-fill-static{
+	width:100%;
+	height: 550px;
+	background-color: #fff;
+	color: #000;
+	display: block;
+	margin-top:-10px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	float: right;
+	text-align: 100px;
+}
+
+/*@media screen  (min-width: 50px){
+	#grouper{
+		margin-left: 0px;
+	}
+	body{
+		background-color: #000000;
+	}
+}*/
+
+/*
+ 
+
